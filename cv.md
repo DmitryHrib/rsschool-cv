@@ -16,3 +16,14 @@ ___
 * HTML
 * CSS
 * Git, GitHub
+* VS Code, Brackets
+* Figma
+___
+## Education:
+University: Belarusian National Technical University, specialty "Water supply and sewerage".
+___
+## Languages:
+* Belorussian
+* Russian
+* English (in progress...)
+
