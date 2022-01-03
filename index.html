@@ -4,9 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dmitry Hrib</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header_nav">
+                <ul class="header__items">
+                    <li class="header__item">
+                        <a href="#about" class="header__link">About</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#skills" class="header__link">Skills</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#contact" class="header__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <!--Contact start-->
+        <section class="contact " id="contact">
+            <div class="wrapper">
+            <div class="contact__cards">
+                <div class="contact__card">
+                    <img src="./img/дима2020.jpg" alt="avatar" class="contact__avatar-pic">
+                </div>
+                <div class="contact__card">
+                    <h1 class="contact__card_name">
+                    Dmitry Hrib
+                    </h1>
+                    <div class="contact__card_list">
+                        <h2 class="contact__title">Contact information:</h2>
+                        <p>Location: <a href="#!" class="contact__item">Minsk, Belarus</a></p>
+                        <p>Phone: <a href="tel:+375297715437" target="_blank" class="contact__item">+375297715437</a></p>
+                        <p>Email: <a href="https://mail.google.com/mail/u/0/?pc=topnav-about-n-en#inbox/FMfcgxwBWTCDtZbtbjTCstfRHZgqNWpl" target="_blank" class="contact__item">Villigo701@gmail.com</a></p>
+                        <p>GitHub: <a href="https://github.com/DmitryHrib/rsschool-cv/tree/main" target="_blank" class="contact__item">DmitryHrib</a></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--Contact end-->
+        <!--About start-->
+        <section class="about">
+            <div class="about__wrapper">
+                <h2 class="about__title" id="about">
+                    About Me
+                </h2>                                   
+                <p class="about__me-text">I am 23 years old, I work as an engineer. Being in the army, I had a lot of time to think about how to live in this world, in which direction to develop, where it is better to try myself, whether I like what I do. And I came to the conclusion that I want to try myself in the IT field, in which I can study, develop, work, communicate with new interesting people. Despite the fact that this is one of the most demanded areas in the world. That is why I decided to try myself here. My goal is to develop in this direction, gain knowledge in the field of front-end development and, of course, get my first job.</p>
+            </div>            
+        </section>        
+        <!--About end-->
+        <!--Skills start-->
+        <section class="skills" id="skills">
+            <div class="skills__wrapper">
+                <div class="skills__cards">
+                    <div class="skills__card">
+                        <h2 class="skills__title">
+                        Skills:
+                        </h2>
+                        <ul class="skills__items">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>GitHub</li>
+                            <li>VS Code, Brackets</li>
+                            <li>Figma</li>                            
+                        </ul>
+                    </div>
+                    <div class="skills__card">
+                        <p class="skills__title">
+                            Langues: 
+                        </p>
+                        <ul class="skills__items">
+                            <li>Belorussian</li>
+                            <li>Russian</li>
+                            <li>English (in progress ...)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section class="education">
+            <div class="skills__wrapper">
+                <div class="education__block">
+                    <h2 class="skills__title">Edecation:</h2>
+                    <p class="skills__items">University: Belarusian National Technical University, specialty "Water supply and sewerage"</p>
+                </div>
+            </div>
+        </section>
+        <!--Skills end-->
+        <!--Code start-->
+        <section class="code">
+            <div class="skills__wrapper">
+                <div class="code__snippet">
+                    <h2 class="code__title">
+                        Code example:
+                    </h2>
+                    <div class="code__inner">
+                        <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span class="hljs-keyword" style="color: rgb(0, 0, 255);">function</span> <span class="hljs-title" style="color: rgb(163, 21, 21);">multiply</span> (a, b) {
+                        <span class="hljs-keyword" style="color: rgb(0, 0, 255);">return</span> <span class="hljs-type" style="color: rgb(163, 21, 21);">a</span> * b
+                        }</pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Code end-->
+    </main>
+    <footer class="footer">
+        <div class="skills__wrapper">
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <p><a href="https://rs.school/js/"><img src="./img/svg/rs_school_js.svg" alt="logo"
+                        class="footer__logo-pic"></a>2021 by Dmitry Hrib</p>
+                </div>                 
+                <div class="footer__git">
+                    <a href="https://github.com/DmitryHrib" target="_blank" class="footer__link">GitHub</a>
+                </div>                
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
