@@ -118,11 +118,14 @@
   }
   .contact__item{
       text-decoration: none;
-      color:yellowgreen;
+      color:yellowgreen;      
   }
-  .contact__location:hover, .contact__location:focus, .contact__location:active{
+  .contact__cursor:hover, .contact__cursor:focus, .contact__cursor:active{
       opacity: .75;
   }
+  .contact__cursor {
+      cursor: pointer;
+  }  
   /* Contact styles end */
   /* About styles start */
   .about__wrapper{
@@ -192,19 +195,31 @@
     margin-bottom: 70px;
 }
 /* Education styles end */
-/* Code styles start */
-.code__title{
+/* Projects styles start */
+.projects__title{
     font-weight: 900;      
     line-height: 24px;
     font-size: 28px;
     color: black; 
     margin-bottom: 25px;      
 }
-.hljs{
-    margin-left: 200px;
-    margin-bottom: 25px;          
+.projects__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 35px;
+    font-size: 16px;
+    line-height: 24px;
+    color:yellowgreen;
 }
-/* Code styles end */
+.projects__item {
+    position: relative;
+    overflow: hidden;
+    height: 228px;
+    width: 360px;
+    cursor: pointer;
+}
+/* Projects styles end */
 /* Footer styles start */
 .footer{  
     background:rgb(27, 27, 145) ;
@@ -215,18 +230,17 @@
     flex-wrap: wrap;
     align-items: center;    
 }
-.footer__logo{
-    width: 50%;
+.footer__logo{    
     font-weight: normal;
     font-size: 38px;
     line-height: 24px;
+    flex-grow: 1;
 }
 .footer__logo-pic{
     width: 200px;
     height: 150px;
 }
-.footer__git{
-    width: 50%;
+.footer__git{    
     font-weight: normal;
     font-size: 38px;
     line-height: 24px;    
